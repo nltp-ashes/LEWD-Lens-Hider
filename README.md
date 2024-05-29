@@ -27,7 +27,7 @@ The lewd_lens_hider.script will look for specific config lines :
   **Default value** : `0.0,0.0`  
   **Description**   : Delay (in sec) before showing/hiding the bone when aiming out/in
 
-- **Name**          : `lewd_lens_hide_delays`  
+- **Name**          : `lewd_lens_hide_aim_mode`  
   **Presence**      : Optional  
   **Default value** : `true,true,true`  
   **Description**   : Whether to hide bone in respectively normal, alt and gl modes
