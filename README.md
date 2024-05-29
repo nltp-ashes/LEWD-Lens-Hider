@@ -1,4 +1,4 @@
-# LEWD LENS HIDER [![License](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+# LEWD LENS HIDER [![License](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
 
@@ -9,6 +9,28 @@ Script used to selectively hide a bone on the weapon's HUD model when aiming dow
 ### ABOUT
 
 Script used to selectively hide a bone on the weapon's HUD model when aiming down sights.
+
+The lewd_lens_hider.script will look for specific config lines :
+
+- **Name**          : `lewd_lens_hide_enabled`  
+  **Presence**      : Required  
+  **Default value** : N/A  
+  **Description**   : Master safe, to enable/disable the script
+
+- **Name**          : `lewd_lens_hide_bone`  
+  **Presence**      : Required  
+  **Default value** : N/A  
+  **Description**   : Name of the bone to hide
+
+- **Name**          : `lewd_lens_hide_delays`  
+  **Presence**      : Optional  
+  **Default value** : `0.0,0.0`  
+  **Description**   : Delay (in sec) before showing/hiding the bone when aiming out/in
+
+- **Name**          : `lewd_lens_hide_delays`  
+  **Presence**      : Optional  
+  **Default value** : `true,true,true`  
+  **Description**   : Whether to hide bone in respectively normal, alt and gl modes
 
 ---
 
